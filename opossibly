@@ -1,28 +1,37 @@
+<!DOCTYPE html>
 <div class="col" style="background-color:#9EDDFF;">
 <!DOCTYPE html>
 <html lang="en">
-  <title>FTC 6085 EMC^2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </html>
 
 <hi class= "jumbotron">
 <div class="col" style="background-color:#9EDDFF;">
-  <h1 class="text-monospace"> FTC Team 6085 EMC^2</h1> 
-  <p class="text-monospace">
-    EMC^2 is a FIRST Tech Challenge team. We want to take our passion for engineering, math, and science; and take it to the next level by building robots that can complete tasks. Our goal is to strengthen our ability to work as a team, apply our passion in the real-world, and concur difficult tasks. We strive to do all and much more, but most importantly we want to have fun.</p></form>
- <h1 class="text-monospace">FIRST</h1>
-  <p class="text-monospace"><a href="https://www.firstinspires.org">FIRST</a> is a robotics program that has programs for kindergarten to 12th grade. <a href="https://www.firstinspires.org">FIRST</a> allows kids to build and compete at an intermediate level. If you or someone you know is interested in <a href="https://www.firstinspires.org">FIRST</a> please take a look at their website. If you are interested in getting involved in <a href="https://www.firstinspires.org">FIRST</a>, either as a team member or as a mentor <a href="https://www.firstinspires.org/ways-to-help/volunteer"> click here</a>.</p>
-  <p class="text-monospace">*(To find the FIRST website, just click on any of the blue FIRSTs)</p>
-   
+
+ <div class="row">
+ <div class="col" style="background-color:#9EDDFF;"></div>
+ <div class="col" style="background-color:#9EDDFF;"><h1 class="text-monospace">FTC Team 6085 EMC^2</h1></form></div>
+ 
+ <p class="text-monospace"> 
+ <div class="row">
+ <div class="col" style="background-color:#9EDDFF;"></div>
+ <div class="col" style="background-color:#9EDDFF;"><p class="text-monospace">
+    EMC^2 is a FIRST Tech Challenge team. We want to take our passion for engineering, math, and science; and take it to the next level by building robots that can complete tasks. Our goal is to strengthen our ability to work as a team, apply our passion in the real-world, and concur difficult tasks. We strive to do all and much more, but most importantly we want to have fun.</p></form></div>
+ 
+ <div class="row">
+ <div class="col" style="background-color:#9EDDFF;"></div>
+ <div class="col" style="background-color:#9EDDFF;"><h1 class="text-monospace">FIRST</h1></div>
+ 
+ <div class="row">
+ <div class="col" style="background-color:#9EDDFF;"></div>
+    <div class="col" style="background-color:#9EDDFF;"><p class="text-monospace"><a href="https://www.firstinspires.org">FIRST</a> is a robotics program that has programs for kindergarten to 12th grade. <a href="https://www.firstinspires.org">FIRST</a> allows kids to build and compete at an intermediate level. If you or someone you know is interested in <a href="https://www.firstinspires.org">FIRST</a> please take a look at their website. If you are interested in getting involved in <a href="https://www.firstinspires.org">FIRST</a>, either as a team member or as a mentor <a href="https://www.firstinspires.org/ways-to-help/volunteer"> click here</a>.<class="text-monospace">*(To find the FIRST website, just click on any of the blue FIRSTs)</p></div>
+ </div>
    <form action="https://www.firstinspires.org/">
    <button type="submit">FIRST</button>
    </form>
 <form action="https://www.firstinspires.org/">
    <button type="submit"class="button" style="background-color:#9EDDFF;">FIRST</button>
-   
    <a href="https://www.firstinspires.org">FIRST</a>
 </div>
+   
