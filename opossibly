@@ -1,8 +1,7 @@
-#opossibly
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<div class="col"style="background-color:#9EDDFF;">
+<div style="background-color:#9EDDFF;"> 
 <header>
 <br>
 </header>
@@ -15,8 +14,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<!-- BG colour-->
-<div class="col" style="background-color:#9EDDFF;">
+
 
 <div class="container mt-3">
   <h2></h2>
@@ -27,10 +25,10 @@
       <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu1">Robot</a>
+      <a class="nav-link" data-toggle="tab" href="#menu2">Members</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+      <a class="nav-link" data-toggle="tab" href="#menu1">Robot</a>
     </li>
      <li class="nav-item">
       <a class="nav-link" data-toggle="tab" href="#menu3">You Know</a>
@@ -38,7 +36,20 @@
      <li class="nav-item">
       <a class="nav-link" data-toggle="tab" href="#menu4">SOOO</a>
     </li>
+     <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu5">Menu 5</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu6">Menu 6</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu7">Menu 7</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu8">Menu 8</a>
+    </li>
   </ul>
+  
 
 
 <!-- Tab panes -->
@@ -51,11 +62,14 @@ a:active {color: black; background-color: transparent; text-decoration: underlin
   <div class="tab-content">
     <div id="home" class="container tab-pane active"><br>
       <h2 class="text-monospace">HOME</h2>
-      <p><h4 class="text-monospace"> FTC Team 6085 EMC<sup>2</sup></h4>
-      <p><h6 class="text-monospace"><span style="display:inline-block; width: 20px;"></span>EMC<sup>2</sup> is a FIRST Tech Challenge team. We want to take our passion for engineering, math, and science; and take it to the next level by building robots that can complete tasks. Our goal is to strengthen our ability to work as a team, apply our passion in the real-world, and concur difficult tasks. We strive to do all and much more, but most importantly we want to have fun.</h6>
+      <p><h4 class="text-monospace">FTC Team 6085 EMC<sup>2</sup></h4>
+      <p><h6 class="text-monospace"><span sty le="display:inline-block; width: 20px;"></span>EMC<sup>2</sup> is a FIRST Tech Challenge team. We want to take our passion for engineering, math, and science; and take it to the next level by building robots that can complete tasks. Our goal is to strengthen our ability to work as a team, apply our passion in the real-world, and concur difficult tasks. We strive to do all and much more, but most importantly we want to have fun.</h6>
       <p><h4 class="text-monospace">FIRST</h4>
-      <p><h6 class="text-monospace"><span style="display:inline-block; width: 20px;"></span><a href="https://www.firstinspires.org">FIRST</a> is a robotics program that has programs for kindergarten to 12th grade. <a href="https://www.firstinspires.org">FIRST</a> allows kids to build and compete at an intermediate level. If you or someone you know is interested in <a href="https://www.firstinspires.org">FIRST</a> please take a look at their website. If you are interested in getting involved in <a href="https://www.firstinspires.org">FIRST</a>, either as a team member or as a mentor<a href="https://www.firstinspires.org/ways-to-help/volunteer"> click here</a>.</h6>
-	<h6 class="text-monospace">*(To find the FIRST website, just click on any of the grey FIRSTs)</h6><br>
+      <p><h6 class="text-monospace"><span style="display:inline-block; width: 20px;"></span><a href="https://www.firstinspires.org">FIRST</a> is a robotics program that has programs for kindergarten to 12th grade. <a href="https://www.firstinspires.org">FIRST</a> allows kids to build and compete at an intermediate level. If you or someone you know is interested in <a href="https://www.firstinspires.org">FIRST</a> please take a look at their website. If you are interested in getting involved in <a href="https://www.firstinspires.org">FIRST</a>, either as a team member or as a mentor <a href="https://www.firstinspires.org/ways-to-help/volunteer">click here</a>.</h6>
+	<h6 class="text-monospace">*(To find the FIRST website, just click on any of the underlined FIRSTs)</h6><br>
+ <!--Video -->
+   <h3 class="text-monospace" style="text-align:center;">Our 2018-2019 Promo video that got an honourable mention</h3><br>
+   <iframe width="966" height="543" src="https://www.youtube.com/embed/tqnBkurOR8k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
     <p><h4 class="text-monospace">
     </div>
     
@@ -109,22 +123,179 @@ More than ever, we must come together to innovate and solve problems. In FIRST, 
   
 <!-- Menu 2 -->
   <div id="menu2" class="container tab-pane fade"><br>
-      <h3 class="text-monospace">Menu 2</h3>
-      <p class="text-monospace"> error lol.</p>
+      <style>
+body {class="text-monospace";}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 2px solid #ccc;
+  background-color: #DCDCDC;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #FDF5E6;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #F0F8FF;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 12px 24px;
+  border: 2px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+
+<h2 class="text-monospace">MEMBERS</h2>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'COACH LEWIS')">COACH LEWIS</button>
+  <button class="tablinks" onclick="openCity(event, 'ASSISTANT COACH STRADER')">ASSISTANT COACH STRADER</button>
+  <button class="tablinks" onclick="openCity(event, 'MENTOR ROVITO')">MENTOR ROVITO</button>
+  <button class="tablinks" onclick="openCity(event, 'ANDY')">ANDY</button>
+  <button class="tablinks" onclick="openCity(event, 'COLBY')">COLBY</button>
+  <button class="tablinks" onclick="openCity(event, 'ELIJAH')">ELIJAH</button>
+  <button class="tablinks" onclick="openCity(event, 'GABE')">GABE</button>
+  <button class="tablinks" onclick="openCity(event, 'KEVIN')">KEVIN</button>
+  <button class="tablinks" onclick="openCity(event, 'MEGHAN')">MEGHAN</button>
+  <button class="tablinks" onclick="openCity(event, 'SAMMIE')">SAMMIE</button>
+  <button class="tablinks" onclick="openCity(event, 'STACI')">STACI</button>
+  <button class="tablinks" onclick="openCity(event, 'XANDER')">XANDER</button>
+</div>
+
+<div id="COACH LEWIS" class="tabcontent">
+  <h3 class="text-monospace">COACH LEWIS</h3>
+  <p class="text-monospace">Hi! I'm Hallie Lewis and I'm the head coach of EMC^2. This is my Second year as coach, I've been a mentor to the team in the previous years. Even though I may not know much about robots or programming, I like learning from this enthusiastic team! I enjoy volunteering at the libraries in Springboro schools. I love spending time with my family, reading and going to amusement parks. I look forward to another amazing year with this super creative and fun team!</p>
+</div>
+
+<div id="ASSISTANT COACH STRADER" class="tabcontent">
+  <h3 class="text-monospace">ASSISTANT COACH STRADER</h3>
+  <p class="text-monospace">.</p> 
+</div>
+
+<div id="MENTOR ROVITO" class="tabcontent">
+  <h3 class="text-monospace">MENTOR ROVITO</h3>
+  <p class="text-monospace">.</p>
+</div>
+
+<div id="ANDY" class="tabcontent">
+  <h3 class="text-monospace">ANDY</h3>
+  <p class="text-monospace">.</p>
+</div>
+
+<div id="COLBY" class="tabcontent">
+  <h3 class="text-monospace">COLBY</h3>
+  <p class="text-monospace">.</p>
+</div>
+
+<div id="ELIJAH" class="tabcontent">
+  <h3 class="text-monospace">ELIJAH</h3>
+  <p class="text-monospace">.</p>
+</div>
+
+<div id="GABE" class="tabcontent">
+  <h3 class="text-monospace">GABE</h3>
+  <p class="text-monospace">.</p>
+</div>
+
+<div id="KEVIN" class="tabcontent">
+  <h3 class="text-monospace">KEVIN</h3>
+  <p class="text-monospace">.</p>
+</div>
+
+<div id="MEGHAN" class="tabcontent">
+  <h3 class="text-monospace">MEGHAN</h3>
+  <p class="text-monospace">.</p>
+</div>
+
+<div id="SAMMIE" class="tabcontent">
+  <h3 class="text-monospace">SAMMIE</h3>
+  <p class="text-monospace">.</p>
+</div>
+
+<div id="STACI" class="tabcontent">
+  <h3 class="text-monospace">STACI</h3>
+  <p class="text-monospace">.</p>
+</div>
+
+<div id="XANDER" class="tabcontent">
+  <h3 class="text-monospace">XANDER</h3>
+  <p class="text-monospace">.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
     </div>
     
-<!-- You Know-->
+<!-- You Know -->
     <div id="menu3" class="container tab-pane fade"><br>
       <h2 class="text-monospace">You Know</h2>
     </div>
     
-<!--SOOO-->
+<!--SOOO -->
     <div id="menu4" class="container tab-pane fade"><br>
       <h3 class="text-monospace">SOOO</h3>
       <p class="text-monospace">no.</p>
     </div>
+    
+ <!-- muenu 5 -->
+    <div id="menu5" class="container tab-pane fade"><br>
+      <h2 class="text-monospace">50</h2>
+    </div>
+    
+    <!-- Ymuenu 6 -->
+    <div id="menu6" class="container tab-pane fade"><br>
+      <h2 class="text-monospace">6</h2>
+    </div>
+    
+    <!-- muenu 7 -->
+    <div id="menu7" class="container tab-pane fade"><br>
+      <h2 class="text-monospace">7</h2>
+    </div>
+    
+    
+<!-- muenu 8 -->
+    <div id="menu8" class="container tab-pane fade"><br>
+      <h2 class="text-monospace">8</h2>
+    </div>
   </div>
 </div>
+
 
 <footer>
 <br>
