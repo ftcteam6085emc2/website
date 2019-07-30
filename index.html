@@ -46,7 +46,7 @@
       <a class="nav-link" data-toggle="tab" href="#menu7">Menu 7</a>
     </li>
      <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu8">Menu 8</a>
+      <a class="nav-link" data-toggle="tab" href="#menu8">Contact</a>
     </li>
   </ul>
   
@@ -62,158 +62,6 @@ a:active {color: black; background-color: transparent; text-decoration: underlin
   <div class="tab-content">
     <div id="home" class="container tab-pane active"><br>
       <h2 class="text-monospace">HOME</h2>
-      
-      
-      
-      <style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-  text-align: center;
-  padding: 32px;
-}
-
-.row {
-  display: -ms-flexbox; /* IE 10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  -ms-flex: 30%; /* IE 10 */
-  flex: 45%;
-  flex: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 10px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-  font-size: 18px;
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-</style>
-</head>
-<body>
-
-<!-- Header -->
-<div class="header" id="myHeader">
-  <h1>Image Grid</h1>
-  <p>Click on the buttons to change the grid view.</p>
-  <button class="btn" onclick="one()">1</button>
-  <button class="btn active" onclick="two()">2</button>
-  <button class="btn" onclick="four()">4</button>
-</div>
-
-<!-- Photo Grid -->
-<div class="row"> 
-  <div class="column">
-    <img src="/website/images/duck_bot_2.0_GP.png" style="width:100%">
-    <img src="/website/images/duck_bot_2.0??.png" style="width:100%">
-    <img src="/website/images/image 13.JPG" style="width:100%">
-    <img src="/website/images/IMG_9031.JPG" style="width:100%">
-    <img src="/website/images/IMG_9039.HEIC" style="width:100%">
-    <img src="/website/images/IMG_9497" style="width:100%">
-    <img src="/website/images/IMG_9498" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/website/images/IMG_9532" style="width:100%">
-    <img src="/website/images/IMG_9555" style="width:100%">
-    <img src="/website/images/IMG_9568" style="width:100%">
-    <img src="/website/images/IMG_9569" style="width:100%">
-    <img src="/website/images/IMG_9571" style="width:100%">
-    <img src="/website/images/IMG_9572" style="width:100%">
-  </div>  
-  <div class="column">
-    <img src="/website/images/IMG_9601" style="width:100%">
-    <img src="/website/images/IMG_9604" style="width:100%">
-    <img src="/website/images/IMG_9606" style="width:100%">
-    <img src="/website/images/IMG_9632" style="width:100%">
-    <img src="/website/images/IMG_9633" style="width:100%">
-    <img src="/website/images/IMG_9634" style="width:100%">
-    <img src="/website/images/IMG_9652 2.HEIC" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/website/images/IMG_9653 2" style="width:100%">
-    <img src="/website/images/IMG_9654 2" style="width:100%">
-    <img src="/website/images/IMG_9749" style="width:100%">
-    <img src="/website/images/IMG_9780" style="width:100%">
-    <img src="/website/images/safety_first.JPG" style="width:100%">
-    <img src="/website/images/Team pic in space.png" style="width:100%">
-  </div>
-</div>
-
-<script>
-// Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
-
-// Declare a loop variable
-var i;
-
-// Full-width images
-function one() {
-    for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "100%";  // IE10
-    elements[i].style.flex = "100%";
-  }
-}
-
-// Two images side by side
-function two() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "50%";  // IE10
-    elements[i].style.flex = "50%";
-  }
-}
-
-// Four images side by side
-function four() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "25%";  // IE10
-    elements[i].style.flex = "25%";
-  }
-}
-
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myHeader");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</script>
-      
-      
       <p><h4 class="text-monospace">FTC Team 6085 EMC<sup>2</sup></h4>
       <p><h6 class="text-monospace"><span sty le="display:inline-block; width: 20px;"></span>EMC<sup>2</sup> is a FIRST Tech Challenge team. We want to take our passion for engineering, math, and science; and take it to the next level by building robots that can complete tasks. Our goal is to strengthen our ability to work as a team, apply our passion in the real-world, and concur difficult tasks. We strive to do all and much more, but most importantly we want to have fun.</h6>
       <p><h4 class="text-monospace">FIRST</h4>
@@ -467,9 +315,64 @@ April.</h5></pre>
 <!-- muenu 8 -->
     <div id="menu8" class="container tab-pane fade"><br>
       <h2 class="text-monospace">8</h2>
-    </div>
-  </div>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body <class="text-monospace">
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #191970;
+  color: #FFFAF0;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4682B4;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #9EDDFF;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3 class="text-monospace">Contact Us</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname" class="text-monospace">First Name</label>
+    <input type="text" id="fname" name="firstname" class="text-monospace" placeholder="Your name...">
+
+    <label for="lname" class="text-monospace">Last Name</label>
+    <input type="text" id="lname" name="lastname" class="text-monospace" placeholder="Your last name...">
+
+
+    <label for="subject" class="text-monospace">Subject</label>
+    <textarea id="subject" name="subject" class="text-monospace" placeholder="Write something..." style="height:200px"></textarea>
+
+    <input type="submit" class="text-monospace" value="Submit">
+  </form>
 </div>
+</div>
+
 
 
 <footer>
